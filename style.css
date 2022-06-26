@@ -101,6 +101,36 @@ body{
   }
   @media(max-width:600px){
     .container{
-        width: 90%;
+        width: 87.4%;
     }
+    .flex-container {
+        display: inline;
+        width: 100%;
+      }
+      .flex-item1 {
+        padding: 30px;
+        background-color: rgba(43,179,177,255);
+        font-size: 21px;
+        width: 81%;
+        border-bottom-left-radius: 0%;
+      }
+      .flex-item2 {
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        background-color: rgba(74,190,189,255);
+        padding: 30px;
+        font-size: x-large;
+        width: 81%;
+      }
+      .join{
+        font-size: 20px;
+      }
+      .day{
+        font-size: 15px;
+      }
+      .sub{
+        font-size: x-large;
+        margin-bottom: 10px;
+        text-align: center;
+      }
   }
